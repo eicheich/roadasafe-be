@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from config.database import supabase
+from app.config.database import supabase
 
 app = FastAPI()
 
